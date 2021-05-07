@@ -1,4 +1,4 @@
-// calss 'Plane'
+// class 'Plane'
 
 #include <iostream>
 
