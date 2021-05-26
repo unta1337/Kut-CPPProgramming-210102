@@ -96,5 +96,8 @@ int main(void)
     for (int i = 0; i < 3; i++)
         cout << "The area of " << s[i]->name << " is: " << s[i]->getSurfaceArea() << ".\n";
 
+    for (int i = 0; i < 3; i++)
+        delete s[i];
+
     return 0;
 }
